@@ -1,0 +1,1 @@
+export type Tour={id:number;title:string;country:string;city:string;description:string;image_url:string;price_per_person:number;duration_days:number;hotel_name:string;transport:string;meals:string;rating:number;active:boolean};

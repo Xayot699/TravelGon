@@ -1,0 +1,1 @@
+import {Link} from "react-router-dom"; export function SearchBox(){return <div className="search-box reveal"><div><small>Destination</small><b>Uzbekistan + World</b></div><div><small>Date</small><b>Any date</b></div><div><small>Guests</small><b>1+ traveler</b></div><Link className="button primary" to="/tours">Search</Link></div>}

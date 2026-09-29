@@ -1,0 +1,1 @@
+import {Hero} from "../components/Hero/Hero"; import {SearchBox} from "../components/Search/SearchBox"; import {FeaturedTours} from "../components/Featured/FeaturedTours"; export function HomePage(){return <><Hero/><SearchBox/><FeaturedTours/></>}

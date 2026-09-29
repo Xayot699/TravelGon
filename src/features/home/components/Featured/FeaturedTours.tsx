@@ -1,0 +1,1 @@
+import {useTours} from "../../../tours/hooks/useTours"; import {TourGrid} from "../../../tours/components/TourGrid/TourGrid"; export function FeaturedTours(){const{data}=useTours();return <section className="section"><span>FEATURED</span><h2>Popular packages</h2><TourGrid tours={data.slice(0,6)}/></section>}

@@ -1,0 +1,1 @@
+import type {ReactNode} from "react"; import {Header} from "./header/Header"; import {Footer} from "./footer/Footer"; export function SiteLayout({children}:{children:ReactNode}){return <div className="site"><Header/><main>{children}</main><Footer/></div>}

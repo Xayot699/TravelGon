@@ -1,0 +1,1 @@
+import {useEffect,useState} from "react"; import {fetchTours} from "../api/tourApi"; export function useTours(){const[data,setData]=useState<any[]>([]);const[loading,setLoading]=useState(true);useEffect(()=>{fetchTours().then(setData).finally(()=>setLoading(false))},[]);return{data,loading}}
